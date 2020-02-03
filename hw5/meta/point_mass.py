@@ -8,7 +8,7 @@ class PointEnv(Env):
     point mass on a 2-D plane
     goals are sampled randomly from a square
     """
-
+ 
     def __init__(self, num_tasks=1):
         self.reset_task()
         self.reset()
